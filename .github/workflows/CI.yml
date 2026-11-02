@@ -19,10 +19,10 @@ jobs:
       - name: Install libraries
         run: pip install -r requirements.txt
 
-        name: ML model Training
+      - name: ML model Training
         run: python train.py
 
-        name: ML model Testing
+      - name: ML model Testing
         run: python test.py
 
         
